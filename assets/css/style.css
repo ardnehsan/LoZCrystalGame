@@ -1,0 +1,54 @@
+h1 img{
+	width: 50%;
+	height: auto;
+}
+
+.panel-body img{
+	float:left;
+}
+
+
+#goal{
+	text-align: center;
+	opacity: 0;
+}
+
+#goal img{
+	margin-left: 25%;
+	width: 50%;
+	height: auto;
+}
+
+body{
+	background-color: #38B6F1;
+}
+
+.bank{
+	text-align: center;
+}
+
+.bank img{
+	width: 25%;
+	height: auto;
+}
+
+
+@font-face {
+    font-family: 'Charlemagne';
+    src: url('../fonts/Charlemagne.ttf') format('truetype');
+}
+
+.container{
+	font-family: "Charlemagne";
+}
+
+.panel-primary>.panel-heading {
+ 	color: red;
+ 	background-color: green;
+
+ }
+
+ .panel-body{
+ 	background-color: #9E8243;
+	font-size: 20px;
+ }
