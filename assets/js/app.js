@@ -120,12 +120,12 @@ var checkWin = function(){
 
 	}
 
-	if(winCount == 10)
+	if(winCount == 9)
 		{
 			 $("#goal").animate({opacity: '1'});
 		}
 
-	else if(lossCount == 2)
+	else if(lossCount == 20)
 		{
 		alert("You've met with a terrible fate.");
 		reset();
